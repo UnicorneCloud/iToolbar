@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iToolbar'
   s.version          = '0.1.0'
-  s.summary          = 'Easy to use UIToolbar under a UINavigationBar.'
+  s.summary          = 'Easy to use UIToolbar for UINavigationBar.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Easy to use UIToolbar under a UINavigationBar.
+Easy to use UIToolbar for UINavigationBar.
                        DESC
 
   s.homepage         = 'https://github.com/ericpinet/iToolbar'
