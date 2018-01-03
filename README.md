@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/iToolbar.svg?style=flat)](http://cocoapods.org/pods/iToolbar)
 [![Platform](https://img.shields.io/cocoapods/p/iToolbar.svg?style=flat)](http://cocoapods.org/pods/iToolbar)
 
+
+![iToolbar.gif](https://github.com/ericpinet/iToolbar/readme/iToolbar.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
