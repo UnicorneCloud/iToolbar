@@ -26,8 +26,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     // Toolbar setup
+    // Initialization of the iToolbar
     _toolbar = [[iToolbar alloc] init];
+    
+    // set the parent NavigationBar
     [_toolbar setParentNavbar:(iNavigationBar*)self.navigationController.navigationBar];
+    
+    // Set the scrolview to adjust when iToolbar is shown
     [_toolbar setScollView:self.tableView];
 
     UIBarButtonItem *button1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
@@ -53,8 +58,8 @@
     _toolbar.items = @[button1, space1, button2, space2, button3];
     
     /*
-     // Adding a custome view insted of tool bar items.
-     // Adding the custome view in iToolbar with setContentView.
+     // Adding a custom view insted of tool bar items.
+     // Adding the custom view in iToolbar with setContentView.
      
      UIView *contentView = [[UIView alloc] init];
      [contentView setBackgroundColor:UIColor.brownColor];
