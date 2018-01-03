@@ -1,11 +1,5 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'iToolbar_Example' do
   pod 'iToolbar', :path => '../'
-
-  target 'iToolbar_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

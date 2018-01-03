@@ -1,0 +1,6 @@
+framework module iToolbar {
+  umbrella header "iToolbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

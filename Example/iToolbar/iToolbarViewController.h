@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface iToolbarViewController : UIViewController
+@interface iToolbarViewController : UITableViewController
 
 @end

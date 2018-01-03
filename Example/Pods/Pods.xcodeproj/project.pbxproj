@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2C87EF2873214F62FA6EC68E01951C /* Pods-iToolbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C37DFA4B2F31E448F7CF240B5CCA64 /* Pods-iToolbar_Example-dummy.m */; };
+		222BA560841E8FD2546E535CE1B165C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		321B3A11C41F200FE56A50C801AFB58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B80AC7316358874DB82B7FE9ADA7E41 /* iToolbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C45EDF2E661D797FB30068D83C1DE73D /* iToolbar-dummy.m */; };
+		933731CCC4A2E59D6246008C27645711 /* iToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A8F2F62DA31DE32DC95AB32CFEFA46 /* iToolbar.m */; };
+		9771EFE21FFC112D005EBEB8 /* iNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9771EFE01FFC112D005EBEB8 /* iNavigationBar.h */; };
+		9771EFE31FFC112D005EBEB8 /* iNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9771EFE11FFC112D005EBEB8 /* iNavigationBar.m */; };
+		D10D6CB387EC6821FC39648B42DD23B4 /* iToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = EE53EC73A52DE4F271C2054D1FEF8BB0 /* iToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65529009523EDB752AD9FD41C8D5F0F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50E6A70D9CDE3EB1A3AB481B45A5979;
+			remoteInfo = iToolbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8FAD4319AEE9658A17058401EBE956 /* Pods-iToolbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iToolbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		160C029BA7FBEB1D255847CCDC808874 /* iToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iToolbar-prefix.pch"; sourceTree = "<group>"; };
+		30A8F2F62DA31DE32DC95AB32CFEFA46 /* iToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iToolbar.m; path = iToolbar/Classes/iToolbar.m; sourceTree = "<group>"; };
+		33D6AD25E0ECE937536E96062C349F70 /* iToolbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iToolbar.xcconfig; sourceTree = "<group>"; };
+		40B78D081E971F8F3FEEF387F410DAC4 /* libiToolbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiToolbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0E836A0A8F3A414DBE9D1AF58F7ED /* Pods-iToolbar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iToolbar_Example-resources.sh"; sourceTree = "<group>"; };
+		533FF303A4D1683527C47B947DF45160 /* Pods-iToolbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iToolbar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60C37DFA4B2F31E448F7CF240B5CCA64 /* Pods-iToolbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iToolbar_Example-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E2CEDAF6E5261E99119778B36B0B2E /* Pods-iToolbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iToolbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9771EFE01FFC112D005EBEB8 /* iNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iNavigationBar.h; path = iToolbar/Classes/iNavigationBar.h; sourceTree = "<group>"; };
+		9771EFE11FFC112D005EBEB8 /* iNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iNavigationBar.m; path = iToolbar/Classes/iNavigationBar.m; sourceTree = "<group>"; };
+		B2CDB0FE164B59D6674BBC8FF8054084 /* Pods-iToolbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iToolbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C45EDF2E661D797FB30068D83C1DE73D /* iToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iToolbar-dummy.m"; sourceTree = "<group>"; };
+		EE53EC73A52DE4F271C2054D1FEF8BB0 /* iToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iToolbar.h; path = iToolbar/Classes/iToolbar.h; sourceTree = "<group>"; };
+		EFF263B6090C8B91D049C61FEEE0FD72 /* libPods-iToolbar_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iToolbar_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD843408FA4A8E3496D327D57C2129C /* Pods-iToolbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iToolbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1463828CD84E8BF34E2CB6069C2F7FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222BA560841E8FD2546E535CE1B165C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD36982846A563F76268D167174E08ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321B3A11C41F200FE56A50C801AFB58D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7CE0F49E937A2DE7188FA8B2CD523B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D6AD25E0ECE937536E96062C349F70 /* iToolbar.xcconfig */,
+				C45EDF2E661D797FB30068D83C1DE73D /* iToolbar-dummy.m */,
+				160C029BA7FBEB1D255847CCDC808874 /* iToolbar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iToolbar";
+			sourceTree = "<group>";
+		};
+		1423110043A8C9D1BF27888CBE1BFE24 /* iToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				EE53EC73A52DE4F271C2054D1FEF8BB0 /* iToolbar.h */,
+				30A8F2F62DA31DE32DC95AB32CFEFA46 /* iToolbar.m */,
+				9771EFE01FFC112D005EBEB8 /* iNavigationBar.h */,
+				9771EFE11FFC112D005EBEB8 /* iNavigationBar.m */,
+				0F7CE0F49E937A2DE7188FA8B2CD523B /* Support Files */,
+			);
+			name = iToolbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4AC02404083DF5FE08F9D5A6AAC844AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1423110043A8C9D1BF27888CBE1BFE24 /* iToolbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4AC02404083DF5FE08F9D5A6AAC844AD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E8D53EDEE752A6ADD59456FDF4B63168 /* Products */,
+				FD0E257E2FEDB7F43F0DDEFFFE0F515E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DACC87AA43223C87C2E2AEE2FD6AAA1C /* Pods-iToolbar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C8FAD4319AEE9658A17058401EBE956 /* Pods-iToolbar_Example-acknowledgements.markdown */,
+				76E2CEDAF6E5261E99119778B36B0B2E /* Pods-iToolbar_Example-acknowledgements.plist */,
+				60C37DFA4B2F31E448F7CF240B5CCA64 /* Pods-iToolbar_Example-dummy.m */,
+				533FF303A4D1683527C47B947DF45160 /* Pods-iToolbar_Example-frameworks.sh */,
+				40C0E836A0A8F3A414DBE9D1AF58F7ED /* Pods-iToolbar_Example-resources.sh */,
+				B2CDB0FE164B59D6674BBC8FF8054084 /* Pods-iToolbar_Example.debug.xcconfig */,
+				FAD843408FA4A8E3496D327D57C2129C /* Pods-iToolbar_Example.release.xcconfig */,
+			);
+			name = "Pods-iToolbar_Example";
+			path = "Target Support Files/Pods-iToolbar_Example";
+			sourceTree = "<group>";
+		};
+		E8D53EDEE752A6ADD59456FDF4B63168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B78D081E971F8F3FEEF387F410DAC4 /* libiToolbar.a */,
+				EFF263B6090C8B91D049C61FEEE0FD72 /* libPods-iToolbar_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0E257E2FEDB7F43F0DDEFFFE0F515E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACC87AA43223C87C2E2AEE2FD6AAA1C /* Pods-iToolbar_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B73F56906E2A42076569070A1B7D16A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9771EFE21FFC112D005EBEB8 /* iNavigationBar.h in Headers */,
+				D10D6CB387EC6821FC39648B42DD23B4 /* iToolbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		664C22221159A2CDED6116E4E66F7885 /* Pods-iToolbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9C7948ACB82113A90E6E21EDF34133 /* Build configuration list for PBXNativeTarget "Pods-iToolbar_Example" */;
+			buildPhases = (
+				9DDC1186FA7CFAD6D67D38C51F17B24A /* Sources */,
+				1463828CD84E8BF34E2CB6069C2F7FA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3A5852F2EC061921AB1F24FB382079 /* PBXTargetDependency */,
+			);
+			name = "Pods-iToolbar_Example";
+			productName = "Pods-iToolbar_Example";
+			productReference = EFF263B6090C8B91D049C61FEEE0FD72 /* libPods-iToolbar_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A50E6A70D9CDE3EB1A3AB481B45A5979 /* iToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFD7F1A23359499EEE4A7F19C117E6C /* Build configuration list for PBXNativeTarget "iToolbar" */;
+			buildPhases = (
+				76CD00AEEB161650AADB937F53319332 /* Sources */,
+				BD36982846A563F76268D167174E08ED /* Frameworks */,
+				6B73F56906E2A42076569070A1B7D16A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iToolbar;
+			productName = iToolbar;
+			productReference = 40B78D081E971F8F3FEEF387F410DAC4 /* libiToolbar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8D53EDEE752A6ADD59456FDF4B63168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50E6A70D9CDE3EB1A3AB481B45A5979 /* iToolbar */,
+				664C22221159A2CDED6116E4E66F7885 /* Pods-iToolbar_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CD00AEEB161650AADB937F53319332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9771EFE31FFC112D005EBEB8 /* iNavigationBar.m in Sources */,
+				3B80AC7316358874DB82B7FE9ADA7E41 /* iToolbar-dummy.m in Sources */,
+				933731CCC4A2E59D6246008C27645711 /* iToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDC1186FA7CFAD6D67D38C51F17B24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C87EF2873214F62FA6EC68E01951C /* Pods-iToolbar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D3A5852F2EC061921AB1F24FB382079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iToolbar;
+			target = A50E6A70D9CDE3EB1A3AB481B45A5979 /* iToolbar */;
+			targetProxy = 65529009523EDB752AD9FD41C8D5F0F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4BA39C16A89CAF3F178427CCA1BBECD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D6AD25E0ECE937536E96062C349F70 /* iToolbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iToolbar/iToolbar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C03552B0D4D404A438A665B8AA9AE1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CDB0FE164B59D6674BBC8FF8054084 /* Pods-iToolbar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEBFA20D08E4D8928FB7E7EE3BEFC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D6AD25E0ECE937536E96062C349F70 /* iToolbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iToolbar/iToolbar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20E82A37BD9A1D37C3007FD597E0F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD843408FA4A8E3496D327D57C2129C /* Pods-iToolbar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFD7F1A23359499EEE4A7F19C117E6C /* Build configuration list for PBXNativeTarget "iToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA39C16A89CAF3F178427CCA1BBECD0 /* Debug */,
+				EDEBFA20D08E4D8928FB7E7EE3BEFC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9C7948ACB82113A90E6E21EDF34133 /* Build configuration list for PBXNativeTarget "Pods-iToolbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03552B0D4D404A438A665B8AA9AE1F2 /* Debug */,
+				F20E82A37BD9A1D37C3007FD597E0F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

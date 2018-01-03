@@ -1,0 +1,16 @@
+PODS:
+  - iToolbar (0.1.0)
+
+DEPENDENCIES:
+  - iToolbar (from `../`)
+
+EXTERNAL SOURCES:
+  iToolbar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iToolbar: 39014bd53d2523775403b21a48e7f9a0857f035b
+
+PODFILE CHECKSUM: 451a3236e7d6915d5bfeeb0ba8bfbaab9fdd25e2
+
+COCOAPODS: 1.3.1
