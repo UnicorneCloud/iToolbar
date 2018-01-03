@@ -40,13 +40,13 @@ See the sample project iToolbar in 'Exemple' directory.
 
 ### Import the header
 
-```ruby
+```
 #import <iToolbar.h>
 ```
 
 ### Setup the iToolbar
 
-```ruby
+```
 // Initialization of the iToolbar
 _toolbar = [[iToolbar alloc] init];
 
@@ -61,7 +61,7 @@ _toolbar = [[iToolbar alloc] init];
 
 #### Add button
 
-```ruby
+```
 UIBarButtonItem *button1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
 target:self
 action:@selector(click:)];
@@ -73,7 +73,7 @@ _toolbar.items = @[button1, ...];
 
 #### Add custom view
 
-```ruby
+```
 UIView *contentView = [[UIView alloc] init];
 [contentView setBackgroundColor:UIColor.brownColor];
 [_toolbar setContentView:contentView];
@@ -81,7 +81,7 @@ UIView *contentView = [[UIView alloc] init];
 
 ### Show and Hide iToolbar
 
-```ruby
+```
 [_toolbar show:true]; // true for animated
 
 [_toolbar hide:false]; // false to hide without animation
