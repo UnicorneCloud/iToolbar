@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Easy to use UIToolbar for UINavigationBar.
+Easy to use UIToolbar for UINavigationBar. Add UIToolbarItem or a custome view in iToolbar.
                        DESC
 
   s.homepage         = 'https://github.com/ericpinet/iToolbar'
@@ -32,7 +32,7 @@ Easy to use UIToolbar for UINavigationBar.
 
   s.source_files = 'iToolbar/Classes/**/*'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
