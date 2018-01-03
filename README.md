@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/iToolbar.svg?style=flat)](http://cocoapods.org/pods/iToolbar)
 
 
-![iToolbar.gif](https://github.com/ericpinet/iToolbar/blob/Update-Readme/readme/iToolbar.gif)
+![iToolbar.gif](https://github.com/ericpinet/iToolbar/blob/master/readme/iToolbar.gif)
 
 ## Example
 
@@ -39,7 +39,7 @@ See the sample project iToolbar in 'Exemple' directory.
 
 ### Subclass the UINavigationBar with iNavigationBar
 
-![iNavigationBarSetup.png](https://github.com/ericpinet/iToolbar/blob/Update-Readme/readme/iNavigationBarSetup.png)
+![iNavigationBarSetup.png](https://github.com/ericpinet/iToolbar/blob/master/readme/iNavigationBarSetup.png)
 
 ### Import the header
 
